@@ -4,9 +4,9 @@ import "../styles/Education.css";
 function Education() {
   const [formAddDisplay, setFormAddDisplay] = useState(true);
   const [formEditDisplay, setFormEditDisplay] = useState(false);
-  const [degreeSchool, setDegreeSchool] = useState("TARUMT");
-  const [degreeDate, setDegreeDate] = useState("2024-04");
-  const [degreeName, setDegreeName] = useState("Bachelor in CS");
+  const [degreeSchool, setDegreeSchool] = useState("");
+  const [degreeDate, setDegreeDate] = useState("");
+  const [degreeName, setDegreeName] = useState("");
 
   const [formValues, setFormValues] = useState({
     inputSchool: degreeSchool,
