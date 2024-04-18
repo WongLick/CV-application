@@ -78,6 +78,7 @@ function Main() {
               value={addValues.addName}
               onChange={handleAddChange}
             />
+            <br />
             <label htmlFor="addEmail">Email: </label>
             <input
               type="text"
@@ -86,6 +87,7 @@ function Main() {
               value={addValues.addEmail}
               onChange={handleAddChange}
             />
+            <br />
             <label htmlFor="addPhone">Phone: </label>
             <input
               type="text"
@@ -94,6 +96,7 @@ function Main() {
               value={addValues.addPhone}
               onChange={handleAddChange}
             />
+            <br />
             <button type="submit">Add</button>
           </form>
         )}
@@ -132,7 +135,7 @@ function Main() {
               onChange={handleFormChange}
             />
             <br />
-            <button type="submit">Save Details</button>
+            <button type="submit">Save Changes</button>
           </form>
         )}
       </div>

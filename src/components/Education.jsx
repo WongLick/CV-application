@@ -98,7 +98,7 @@ function Education() {
               onChange={handleAddChange}
             />
             <br />
-            <button type="submit">Add Education</button>
+            <button type="submit">Add</button>
           </form>
         )}
       </div>
