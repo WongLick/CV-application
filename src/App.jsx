@@ -6,8 +6,8 @@ import Education from "./components/Education";
 function App() {
   return (
     <>
-      <Main />
-      {/* <Education /> */}
+      {/* <Main /> */}
+      <Education />
     </>
   );
 }

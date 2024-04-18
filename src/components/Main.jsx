@@ -22,7 +22,6 @@ function Main() {
 
   const showEditForm = () => {
     setFormEditDisplay(!formEditDisplay);
-    // Update formValues when showing the form to reflect the latest details
     setFormValues({
       inputName: name,
       inputEmail: email,
@@ -45,7 +44,6 @@ function Main() {
     setPhone(formValues.inputPhone);
     alert("Details have been successfully updated.");
     setFormDisplay(false);
-    // No need to update formValues here as we are hiding the form
   };
 
   const handleAdd = (event) => {
@@ -54,8 +52,8 @@ function Main() {
     setEmail(addValues.addEmail);
     setPhone(addValues.addPhone);
     alert("New details have been added.");
-    setAddValues({ addName: "", addEmail: "", addPhone: "" }); // Reset add form values
-    setFormDisplay(false); // Optionally close the form
+    setAddValues({ addName: "", addEmail: "", addPhone: "" }); 
+    setFormDisplay(false); 
   };
 
   const handleAddChange = (event) => {

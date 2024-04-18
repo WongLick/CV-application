@@ -1,10 +1,9 @@
 .education {
   color: snow;
-  text-align: center;
   font-size: 20px;
+  display: flex;
 }
 
-.education button {
-  padding: 15px 30px;
-  font-size: 24px;
+.education div {
+  flex: 50%;
 }
