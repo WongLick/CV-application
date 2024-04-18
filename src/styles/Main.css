@@ -1,9 +1,12 @@
 .main {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  height: 100dvh;
+  border-bottom: 1px solid white;
+  padding-bottom: 1%;
+}
+
+.main div{
+  flex: 50%;
 }
 
 .main button {
